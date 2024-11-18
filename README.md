@@ -27,9 +27,9 @@ Para rodar este projeto localmente, você precisa ter algumas ferramentas instal
 Primeiro, você precisa clonar o repositório para o seu computador. Para isso, abra o terminal ou prompt de comando e execute os seguintes passos:
 
 1. **Copie o link do repositório**:  
-   Acesse o repositório no GitHub e copie o link de clonagem. O link seria algo como `https://github.com/seu-usuario/loja-dos-tratores.git`.
+   Acesse o repositório no GitHub e copie o link de clonagem. O link seria algo como `https://github.com/NicolasHarnisch/construcao-de-um-site.git`.
 
 2. **Clone o repositório**:
    No seu terminal, execute o comando abaixo para clonar o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/loja-dos-tratores.git
+   https://github.com/NicolasHarnisch/construcao-de-um-site.git
