@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engremaq</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style3.css">
+</head>
+<body>
+     <!-- Linha amarela superior -->
+    <div class="informacao-topo">
+        <span class="mensagem">Aqui você encontra tudo para o seu trator!</span>
+        <div class="contatos">
+            <a href="tel:+55-85-996883588"><img src="file:///C:/Users/nicol/Downloads/depositphotos_115535044-stock-illustration-phone-icon-black-icon-on-removebg-preview.png" alt="Celular"> (85) 96883588</a>
+            <a href="https://wa.me/5585996883588"><img src="file:///C:/Users/nicol/Downloads/whatsapp-removebg-preview.png" alt="WhatsApp"> (85) 96883588</a>
+            <a href="nicolasgomeshar@gmail.com"><img src="file:///C:/Users/nicol/Downloads/905509e37d5fb75b1aaf4866a93c9d46-removebg-preview.png" alt="Email"> nicolasgomeshar@gmail.com</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com">Instagram</a></li>
+            <a href="https://www.facebook.com">Facebook</a></li>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="file:///c%3A/Users/nicol/Documents/Trabalho%20Include%20Jr/Imagens/image-removebg-preview.png" alt="Logo da Empresa" class="logo">
+        <nav>
+            <ul>
+                <li class="menu-item"><a href="home1.html">Home</a></li>
+                <li class="menu-item"><a href="sobre2.html">Sobre</a></li>
+                <li class="menu-item"><a href="produtos3.html">Produtos</a></li>
+                <li class="menu-item"><a href="contato5.html">Contato</a></li>
+                <li class="menu-item"><a href="pesquisar6.html">Pesquisar</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- Barra lateral de Categorias -->
+<aside class="sidebar">
+    <br><br><br><br><br><br>
+    <h3>Categorias de Produtos</h3>
+    <ul>
+        <li><a href="#">Acessórios em Geral (268)</a></li>
+        <li><a href="#">Anéis (278)</a></li>
+        <li><a href="#">Arruelas (86)</a></li>
+        <li><a href="#">Bombas, partes e Sistema Hidráulico (249)</a></li>
+        <li><a href="#">Borrachas (2)</a></li>
+        <li><a href="#">Cabos (3)</a></li>
+        <li><a href="#">Cardans e Cruzetas (36)</a></li>
+        <li><a href="#">Compressores (18)</a></li>
+        <li><a href="#">Condensador e partes Ar Condicionado (25)</a></li>
+        <li><a href="#">Correias (53)</a></li>
+    </ul>
+</aside>
+</section>
+
+<!-- Catálogo de Produtos -->
+<section id="catalogo">
+    <div class="container">
+        <h2>Catálogo de Peças</h2>
+        <div class="catalogo-grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/220x220" alt="Produto 1">
+                <h3>Peça 1</h3>
+                <p class="preco">R$ 150,00</p>
+                <button class="button" onclick="adicionarAoCarrinho('Peça 1', 150)">Comprar</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/220x220" alt="Produto 2">
+                <h3>Peça 2</h3>
+                <p class="preco">R$ 200,00</p>
+                <button class="button" onclick="adicionarAoCarrinho('Peça 2', 200)">Comprar</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/220x220" alt="Produto 3">
+                <h3>Peça 3</h3>
+                <p class="preco">R$ 250,00</p>
+                <button class="button" onclick="adicionarAoCarrinho('Peça 3', 250)">Comprar</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Carrinho de Compras -->
+<section id="carrinho">
+    <div class="container">
+        <h2>Seu Carrinho</h2>
+        <div id="itens-carrinho">
+            <p>Nenhum item no carrinho.</p>
+        </div>
+        <button id="finalizar-compra" style="display:none;">Finalizar Compra</button>
+    </div>
+</section>
+
+<!-- Link para o script externo -->
+<script src="script.js"></script>
+</body>
+</html>
