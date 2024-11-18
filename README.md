@@ -1,7 +1,7 @@
-# Loja dos Tratores
+# Loja de Tratores
 
 ## Descrição do Projeto
-O **Loja dos Tratores** é um site de e-commerce focado na venda de peças e acessórios para tratores. Ele oferece uma experiência completa de compra online, onde os clientes podem visualizar, pesquisar e comprar produtos relacionados ao universo dos tratores. Além disso, a loja disponibiliza um formulário de contato para que os usuários possam entrar em contato facilmente.
+O **Engremaq** é um site de e-commerce focado na venda de peças e acessórios para tratores. Ele oferece uma experiência completa de compra online, onde os clientes podem visualizar, pesquisar e comprar produtos relacionados ao universo dos tratores. Além disso, a loja disponibiliza um formulário de contato para que os usuários possam entrar em contato facilmente.
 
 Este repositório contém o código fonte de todas as páginas do site, incluindo funcionalidades como carrinho de compras, pesquisa de produtos e uma interface de navegação intuitiva.
 
