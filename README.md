@@ -32,4 +32,4 @@ Primeiro, você precisa clonar o repositório para o seu computador. Para isso, 
 2. **Clone o repositório**:
    No seu terminal, execute o comando abaixo para clonar o repositório:
    ```bash
-   https://github.com/NicolasHarnisch/construcao-de-um-site.git
+     git clone https://github.com/NicolasHarnisch/construcao-de-um-site.git
